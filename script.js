@@ -1,18 +1,7 @@
 // ===== 學習筆記資料：之後只要改這裡，網頁就會更新 =====
 const notes = [
   {
-    callno: "005.1 ／ 版本控制",
-    title: "Git",
-    summary: "用 Git 記錄每次修改，並透過分支與 PR 進行團隊協作。",
-    tags: ["commit", "branch", "PR", "GitHub Actions"],
-    points: [
-      "掌握 Git 核心指令：init、add、commit、branch 與 push、pull、restore。",
-      "熟悉 Git 協作四部曲：開分支、推送到遠端、發起 Pull Request (PR) 與 Code Review。",
-      "處理合併衝突（Merge Conflict），手動解開程式碼衝突並順利合併回 main 主線。"
-    ]
-  },
-  {
-    callno: "004.6 ／ 物聯網",
+    callno: "10月初 ／ 物聯網",
     title: "IoT",
     summary: "認識物聯網硬體架構，透過 ESP-01S 實現手機遠端操控開關。",
     tags: ["ESP-01S", "Arduino IDE", "Wi-Fi 控制"],
@@ -23,7 +12,7 @@ const notes = [
     ]
   },
   {
-    callno: "005.1 ／ 低代碼",
+    callno: "10月初 ／ 低代碼",
     title: "No-code",
     summary: "無需複雜程式碼，運用工具與自動化串接快速達成資料蒐集。",
     tags: ["Google 試算表", "IMPORTFEED", "Apps Script", "IFTTT"],
@@ -34,7 +23,7 @@ const notes = [
     ]
   },
   {
-    callno: "006.7 ／ 網頁開發",
+    callno: "10月中 ／ 網頁開發",
     title: "前端＋React",
     summary: "從 HTML、CSS、JavaScript 基礎到靜態網頁與系統筆記實作。",
     tags: ["HTML", "CSS", "JavaScript", "響應式排版"],
@@ -45,7 +34,7 @@ const notes = [
     ]
   },
   {
-    callno: "005.8 ／ 資訊安全",
+    callno: "10月中 ／ 資訊安全",
     title: "計算機概論、Linux 與資安",
     summary: "建立電腦網路基礎、Linux 系統管理與資訊安全防護觀念。",
     tags: ["Linux 指令", "網路概論", "資訊安全"],
@@ -56,7 +45,7 @@ const notes = [
     ]
   },
   {
-    callno: "005.2 ／ 自動化與測試",
+    callno: "10月底 ／ 自動化與測試",
     title: "Git 協作、Pytest 與 CI/CD",
     summary: "透過 Pytest 單元測試、測試覆蓋率與 GitHub Actions 實現自動化持續整合。",
     tags: ["Pytest", "Coverage", "GitHub Actions", "CI/CD"],
@@ -64,6 +53,17 @@ const notes = [
       "撰寫 Pytest 單元測試並執行紅綠燈循環（Red-Green Refactor），確保程式碼品質。",
       "設定測試覆蓋率（Test Coverage）門檻，利用 --cov-fail-under 攔截未達標準的程式碼。",
       "建立 GitHub Actions (ci.yml) 自動化流程，在每次 push 與 PR 時自動執行雲端測試與多版本矩陣測試。"
+    ]
+  },
+  {
+    callno: " 10月底／ 版本控制",
+    title: "Git",
+    summary: "用 Git 記錄每次修改，並透過分支與 PR 進行團隊協作。",
+    tags: ["commit", "branch", "PR", "GitHub Actions"],
+    points: [
+      "掌握 Git 核心指令：init、add、commit、branch 與 push、pull、restore。",
+      "熟悉 Git 協作四部曲：開分支、推送到遠端、發起 Pull Request (PR) 與 Code Review。",
+      "處理合併衝突（Merge Conflict），手動解開程式碼衝突並順利合併回 main 主線。"
     ]
   }
 ];
