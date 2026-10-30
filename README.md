@@ -2,9 +2,7 @@
 
 我的個人網站，收錄 AI 跨域前線部署工程師（FDE）培訓計畫的課程筆記、履歷與作品。網站為純靜態網頁，部署在 GitHub Pages。
 
-**Live Demo：** https://linsolving85.github.io/portfolio/
-
-## 網站內容
+**Live Demo：** ：https://linsolving85.github.io/GitHubPages/
 
 | 區塊 | 說明 |
 | --- | --- |
