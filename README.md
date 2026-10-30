@@ -10,7 +10,7 @@
 | 學習筆記 | Git、IoT、No-code、前端＋React、計概／Linux／資安，以視窗卡片呈現，可展開重點 |
 | 履歷 | 工作經歷、學歷與獲獎、研習 |
 | 技能與證照 | 專業證照與工具技能標籤 |
-| 作品 | 資安日誌儀表板、內部資源整合門戶、LINE Bot 流程 |
+| 作品 | 資安日誌儀表板、內部資源整合知識庫、LINE Bot |
 | 聯絡 | Email 與 GitHub |
 
 ## 技術與特色
@@ -35,8 +35,8 @@
 ## 本機預覽
 
 ```bash
-git clone git@github.com:linsolving85/portfolio.git
-cd portfolio
+git clone git@github.com:linsolving85/GitHubPages.git
+cd GitHubPages
 ```
 
 用瀏覽器開啟 `index.html` 即可，不需要安裝任何套件。
